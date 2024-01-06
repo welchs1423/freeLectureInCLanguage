@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+int main_printfscanf(void)
 {
 	// ¿Ã∏ß
 	char name[256];
