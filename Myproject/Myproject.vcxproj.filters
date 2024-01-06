@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="helloworld.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="printfscanf.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
