@@ -2,25 +2,38 @@
 
 int main(void)
 {
-	/*int input;
-	printf("값을 입력하세요 : ");
-	scanf_s("%d", &input);
-	printf("입력값 : %d\n", input);*/
+	// 이름
+	char name[256];
+	printf("이름이 뭐예요? ");
+	scanf_s("%s", name, sizeof(name));
 
-	/*int one, two, three;
-	printf("정수 3개를 입력하세요 : ");
-	scanf_s("%d %d %d", &one, &two, &three);
-	printf("첫 번째 값 : %d\n", one);
-	printf("두 번째 값 : %d\n", two);
-	printf("세 번째 값 : %d\n", three);*/
+	// 나이
+	int age;
+	printf("몇 살이에요? ");
+	scanf_s("%d", &age);
 
-	// 문자(한 글자), 문자열(한 글자 이상의 여러 글자)
-	/*char c = 'A';
-	printf("%c\n", c);*/
+	// 몸무게
+	float weight;
+	printf("몸무게는 몇 kg이에요? ");
+	scanf_s("%f", &weight);
 
-	char str[256];
-	scanf_s("%s", str, sizeof(str));
-	printf("%s\n", str);
+	// 키
+	double height;
+	printf("키는 몇 cm예요? ");
+	scanf_s("%lf", &height);
+
+	//범죄명
+	char what[256];
+	printf("어떤 범죄를 저질렀어요? ");
+	scanf_s("%s", what, sizeof(what));
+
+	// 조서 내용 출력
+	printf("\n\n--- 범죄자 정보 ---\n\n");
+	printf("이름    : %s\n", name);
+	printf("나이    : %d\n", age);
+	printf("몸무게 : %.1f\n", weight);
+	printf("키       : %.1lf\n", height);
+	printf("범죄명 : %s\n", what);
 
 	return 0;
 }
