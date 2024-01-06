@@ -46,5 +46,12 @@ int main(void) {
 			printf("	%d x %d = %d\n", i, j, i*j);
 		}
 	}*/
+	for (int i = 0; i < 5; i++) {
+		for (int j = 0; j <= i; j++) {
+			printf("*");
+		}
+		printf("\n");
+	}
+
 	return 0;
 }
