@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+int main_condition(void) {
 	// 버스를 탄다고 가정	학생 / 일반인으로 구분 (일반인 : 20세)
 	//int age = 25;
 	//// if (조건) { ... } else { ... }
@@ -51,7 +51,7 @@ int main(void) {
 	}*/
 
 	// && ||
-	int a = 10;
+	/*int a = 10;
 	int b = 10;
 	int c = 12;
 	int d = 13;
@@ -60,7 +60,7 @@ int main(void) {
 	}
 	else {
 		printf("값이 서로 다르네요\n");
-	}
+	}*/
 
 	return 0;
 }
