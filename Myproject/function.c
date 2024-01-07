@@ -38,3 +38,10 @@ int main(void) {
 void p(int num) {
 	printf("num은 %d 입니다\n", num);
 }
+
+// 전달값 : 36
+// 함수 : ㅁ + 4
+// 반환형 : ?
+void 함수이름(int num1, int num2, char c, float f) {
+	
+}
