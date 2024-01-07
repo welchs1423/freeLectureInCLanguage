@@ -13,7 +13,7 @@ int main(void) {
 
 	// 초등학생(8~13) / 중학생(14~16) / 고등학생(17~19)으로 나누면?
 	// if / else if / else
-	int age = 25;
+	/*int age = 25;*/
 	/*if (age >= 8 && age <= 13) {
 		printf("초등학생입니다\n");
 	}
@@ -40,7 +40,7 @@ int main(void) {
 
 	// 1번부터 30번까지 있는 반에서 7번 학생은 아파서 결석
 	// 7번을 제외하고 6번부터 10번까지 조별 발표를 하세요
-	for (int i = 1; i <= 30; i++) {
+	/*for (int i = 1; i <= 30; i++) {
 		if (i >= 6 && i <= 10) {
 			if (i == 7) {
 				printf("%d 번 학생은 결석입니다\n", i);
@@ -48,6 +48,18 @@ int main(void) {
 			}
 			printf("%d번 학생은 조별 발표 준비를 하세요\n", i);
 		}
+	}*/
+
+	// && ||
+	int a = 10;
+	int b = 10;
+	int c = 12;
+	int d = 13;
+	if (a == b || c == d) {
+		printf("a 와 b 는 같고 , c 와 d 도 같습니다\n");
+	}
+	else {
+		printf("값이 서로 다르네요\n");
 	}
 
 	return 0;
