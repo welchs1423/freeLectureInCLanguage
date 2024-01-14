@@ -42,5 +42,50 @@ int main(void) {
 		printf("%.2f\n", arr_f[i]);
 	}*/
 
+	// 문자 vs 문자열
+	/*char c = 'A';
+	printf("%c\n", c);*/
+
+	// 문자열 끝에는 '끝'을 의미하는 NULL 문자 '\0' 이 포함되어야 함
+	//char str[6] = "coding";	//	[c] [o] [d] [i] [n] [g] [\0]
+	/*char str[7] = "coding";
+	printf("%s\n", str);*/
+
+	/*char str[] = "coding";*/
+	//printf("%s\n", str);
+	//printf("%d\n", sizeof(str));
+
+	/*for (int i = 0; i < sizeof(str); i++) {
+		printf("%c\n", str[i]);
+	}*/
+
+	/*char kor[] = "나도코딩";
+	printf("%s\n", kor);
+	printf("%d\n", sizeof(kor));*/
+	// 영어 1글자 : 1 byte
+	// 한글 1글자 : 2 byte
+	// 한 글
+	// En gl ish
+	// char 크기 : 1 byte
+
+	//char c_array[7] = {'c','o','d','i','n','g','\0'};
+	/*char c_array[6] = { 'c','o','d','i','n','g' };
+	printf("%s\n", c_array);*/
+
+	char c_array[10] = { 'c','o','d','i','n','g'};
+	//printf("%s\n", c_array);
+	/*for (int i = 0; i < sizeof(c_array); i++) {
+		printf("%c\n", c_array[i]);
+	}*/
+	//for (int i = 0; i < sizeof(c_array); i++) {
+	//	printf("%d\n", c_array[i]);	// ASCII 코드 값 출력 (null 문자 0 으로 입력됨)
+	//}
+
+	// 문자열 입력받기 : 경찰서 조서 쓰기 예제
+	char name[256];
+	printf("이름을 입력하세요 : ");
+	scanf_s("%s", name, sizeof(name));
+	printf("%s\n", name);
+
 	return 0;
 }
