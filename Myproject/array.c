@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+int main_array(void) {
 	//배열
 	//int subway_1 = 30;	// 지하철 1호차에 30명이 타고 있다
 	//int subway_2 = 40;
@@ -112,9 +112,9 @@ int main(void) {
 	//printf("%d\n", '1');
 
 	// 참고2 : 0~127 사이의 아스키 코드 정수값에 해당하는 문자 확인
-	for (int i = 0; i < 128; i++) {
+	/*for (int i = 0; i < 128; i++) {
 		printf("아스키 코드 정수 %d : %c\n", i, i);
-	}
+	}*/
 
 	return 0;
 }
