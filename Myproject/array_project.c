@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdlib.h>
 
-int main(void)
+int main_array_project(void)
 {
     srand(time(NULL)); // 경고를 없애려면 srand((unsigned int)time(NULL)); 
     int treatment = rand() % 4; // 진짜 발모제 선택(0~3)
